@@ -13,7 +13,7 @@ services:
     image: node:latest
     stdin_open: true
     volumes:
-      - ./api.feedflow.io:/usr/src/app
+      - ./api.feedflow.io:/opt/app
     ports:
       - "3000:3000"
     links:
